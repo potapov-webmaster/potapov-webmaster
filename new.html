@@ -1,1 +1,47 @@
-<p>123</p>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  
+  <style>
+    
+    body {font-family: 'Roboto', sans-serif; margin: 0; padding: 0;}
+    h1 {color: #2efde9;text-transform: uppercase; padding: 5px 15px;}
+    table {margin: 0 auto}
+    th {background-color: #5c5c5c; color: #fff; text-transform: uppercase; padding: 3px;}
+    .header_title {background-color: #3c3c3c; margin-top: -22px;}
+    .header_title_inner {margin-left: 2%;}
+    .terminal_command {background-color: #ffb100;}
+    
+  </style>
+  </head>
+
+<body>
+  <div class="header_title">
+    <div class="header_title_inner">
+      <h1>Git cheat sheet</h1>
+    </div>
+  </div>
+  <table width="95%" cellpadding="10" cellspacing="5" text-align="center">
+    <tr>
+      <th>Create</th>
+      <th>Branches & Tags</th>
+      <th>Merge & Rebase</th>
+    </tr>
+    <tr>
+      <td>Clone an existing repository</td>
+      <td>List all existing branches</td>
+      <td>Merge <span><</span>branch<span>></span> into your current HEAD</td>
+    </tr>
+    <tr>
+      <td class="terminal_command">$ git clone ssh://user@domain.com/repo.git</td>
+      <td class="terminal_command">$ git branch -av</td>
+      <td class="terminal_command">$ git merge <span><</span>branch<span>></span></td>
+    </tr>
+  </table>
+</body>
+</html>
