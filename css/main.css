@@ -19,9 +19,13 @@ body{
 	width: 100%;
 }
 
-.span-3 {
+.w30 {
 	width: 33%;
-	float: left;
+	display: inline-block;
+}
+
+.w90 {
+	width: 90%;
 }
 
 .table_header {
