@@ -10,3 +10,11 @@ body{
   color: orange;
   font-weight: 600;
 }
+
+.row {
+	width: 100%;
+}
+
+.span-3 {
+	width: 33%;
+}
