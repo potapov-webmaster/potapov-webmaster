@@ -76,6 +76,7 @@ nav {
 
 a.logo:hover {
 	color: white;
+	text-decoration: none;
 }
 
 .logo i {
