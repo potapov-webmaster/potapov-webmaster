@@ -132,7 +132,7 @@ a.logo:hover {
     display: block;
     position: absolute;
     border-top: 3px solid #eb3007;
-    background-color: #191919;
+    background-color: #343a40;
     z-index: 100;
     top: 16rem;
     opacity: 0;
@@ -158,7 +158,7 @@ a.logo:hover {
 
 .sub-menu .sub-menu {
     border-top: none;
-    border-left: 3px solid #eb3007;
+    border-left: 3px solid #3c763d;
     top: 0;
     left: 160%;
 }
@@ -201,7 +201,7 @@ li.move-right {
     .sub-menu {
         position: initial;
         border: 3px solid transparent;
-        border-left-color: #eb3007;
+        border-left-color: #3c763d;
         margin-left: 1rem;
         max-height: 0;
     }
