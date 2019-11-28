@@ -131,7 +131,7 @@ a.logo:hover {
     width: 20rem;
     display: block;
     position: absolute;
-    border-top: 3px solid #eb3007;
+    border-top: 3px solid #3c763d;
     background-color: #343a40;
     z-index: 100;
     top: 16rem;
@@ -146,7 +146,7 @@ a.logo:hover {
     top: -2.5rem;
     left: 3rem;
     border: 1.2rem solid transparent;
-    border-bottom-color: #eb3007;
+    border-bottom-color: #3c763d;
 }
 
 .sub-menu .sub-menu::before {
