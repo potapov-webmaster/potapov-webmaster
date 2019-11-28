@@ -67,10 +67,11 @@ nav {
 .logo {
     width: 5rem;
     height: 5rem;
-    background-color: #eb3007;
     display: flex;
     border-radius: 100%;
     margin-right: 5rem;
+	font-size: 25px;
+    color: white;
 }
 
 .logo i {
@@ -182,7 +183,7 @@ li.move-right {
         display: none;
         flex-direction: column;
         align-items: initial;
-        background-color: #191919;
+        background-color: #343a40;
         z-index: 1000;
         overflow-y: scroll;
     }
