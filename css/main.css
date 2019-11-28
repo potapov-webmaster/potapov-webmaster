@@ -74,6 +74,10 @@ nav {
     color: white;
 }
 
+a.logo:hover {
+	color: white;
+}
+
 .logo i {
     margin: auto;
     font-size: 3rem;
