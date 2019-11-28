@@ -111,8 +111,8 @@ nav {
 .btn {
     padding: 1.3rem;
     display: inline-block;
-    background-color: #eb3007;
-    border: 2px solid #eb3007;
+    background-color: #28a745;
+    border: 2px solid #3c763d;
     border-radius: 5rem;
     transition: background-color 650ms;
 }
