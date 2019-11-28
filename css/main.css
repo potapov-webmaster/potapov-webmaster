@@ -240,9 +240,10 @@ li.move-right {
     }
 
     nav.active .nav-list {
-        display: flex;
+        display: block;
 	   height: 100vh;
 	    overflow-y: scroll;
+	    max-height: 2000px;
     }
 }
 /*----- End nav css -----*/
