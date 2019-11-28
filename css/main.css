@@ -180,11 +180,12 @@ li.move-right {
 }
 
 @media screen and (max-width: 850px) {
-    .nav-list {
+	
+	.nav-list {
         position: fixed;
         top: 0;
         left: 0;
-        height: 100vh;
+        height: 100%;
         display: none;
         flex-direction: column;
         align-items: initial;
