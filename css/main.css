@@ -9,11 +9,11 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 body {
-    overflow-x: hidden;
+	overflow-x: hidden;
 	overflow-y: scroll;
 }
 
@@ -47,7 +47,7 @@ header {
 
 .menu-icons {
     color: #eee;
-    font-size: 4rem;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     right: 2rem;
@@ -61,16 +61,16 @@ nav {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 8rem;
+    height: 80px;
     border-bottom: 1px solid rgba(255,255,255, .1);
 }
 
 .logo {
-    width: 5rem;
-    height: 5rem;
+    width: 50px;
+    height: 50px;
     display: flex;
     border-radius: 100%;
-    margin-right: 5rem;
+    margin-right: 50px;
 	font-size: 25px;
     color: white;
 }
@@ -82,7 +82,7 @@ a.logo:hover {
 
 .logo i {
     margin: auto;
-    font-size: 3rem;
+    font-size: 30px;
     color: #eee;
 }
 
@@ -93,19 +93,19 @@ a.logo:hover {
 }
 
 .nav-list li {
-    line-height: 8rem;
+    line-height: 80px;
     position: relative;
 }
 
 .sub-menu li {
-    line-height: 4rem;
+    line-height: 40px;
 }
 
 .nav-list a {
     display: block;
     color: #eee;
-    padding: 0 1.5rem;
-    font-size: 1.4rem;
+    padding: 0 15px;
+    font-size: 14px;
     text-transform: uppercase;
     transition: color 650ms;
 }
@@ -115,11 +115,11 @@ a.logo:hover {
 }
 
 .btn {
-    padding: 1.3rem;
+    padding: 13px;
     display: inline-block;
     background-color: #28a745;
     border: 2px solid #3c763d;
-    border-radius: 5rem;
+    border-radius: 5px;
     transition: background-color 650ms;
 }
 
@@ -129,13 +129,13 @@ a.logo:hover {
 }
 
 .sub-menu {
-    width: 20rem;
+    width: 200px;
     display: block;
     position: absolute;
     border-top: 3px solid #3c763d;
     background-color: #343a40;
     z-index: 100;
-    top: 16rem;
+    top: 160px;
     opacity: 0;
     visibility: hidden;
     transition: all 650ms ease;
@@ -144,16 +144,16 @@ a.logo:hover {
 .sub-menu::before {
     content: "";
     position: absolute;
-    top: -2.5rem;
+    top: -25px;
     left: 3rem;
-    border: 1.2rem solid transparent;
+    border: 12px solid transparent;
     border-bottom-color: #3c763d;
 }
 
 .sub-menu .sub-menu::before {
     top: .9rem;
-    left: -2.5rem;
-    border: 1.2rem solid transparent;
+    left: -25px;
+    border: 12px solid transparent;
     border-right-color: #3c763d;
 }
 
@@ -165,7 +165,7 @@ a.logo:hover {
 }
 
 .nav-list li:hover > .sub-menu {
-    top: 8rem;
+    top: 80px;
     opacity: 1;
     visibility: visible;
 }
@@ -196,7 +196,7 @@ li.move-right {
     }
 
     .nav-list > li {
-        line-height: 6rem;
+        line-height: 60px;
 
     }
 
@@ -204,7 +204,7 @@ li.move-right {
         position: initial;
         border: 3px solid transparent;
         border-left-color: #3c763d;
-        margin-left: 1rem;
+        margin-left: 10px;
         max-height: 0;
     }
 
