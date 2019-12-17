@@ -40,9 +40,9 @@ header {
 
 .container {
     width: 100%;
-    max-width: 117rem;
+    max-width: 1170px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 15px;
 }
 
 .menu-icons {
@@ -50,7 +50,7 @@ header {
     font-size: 20px;
     position: absolute;
     top: 50%;
-    right: 2rem;
+    right: 20px;
     transform: translateY(-50%);
     cursor: pointer;
     z-index: 1500;
