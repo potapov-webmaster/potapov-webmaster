@@ -38,11 +38,11 @@ header {
 	    background-color: #343a40;
 }
 
-.container {
+.menu-container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 10px 15px 0 10px;
 }
 
 .menu-icons {
